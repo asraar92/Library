@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yasin's Library</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Yasin's Library</h1>
+    </div>
+
+    <div class="addNewBook">
+
+        <button type="button" id="newBookBtn">ADD NEW BOOK</button>
+
+        <dialog id="newBookDialog">
+
+            <form method="dialog">
+                <label for="title">Title</label>
+                <input type="text" name="title" id="title" required />
+                <label for="author">Author</label>
+                <input type="text" name="author" id="author" required />
+                <label for="pages">Pages</label>
+                <input type="number" name="pages" id="pages" required />
+                <label for="readStatus">Have you read the book ?</label>
+      <input
+        type="checkbox"
+        id="readStatus"
+        name="readStatus"
+        value="unread"
+         />
+                <button type="button" id="submitBtn">SUBMIT</button>
+                <button type="button" id="closeBtn">CLOSE</button>
+            </form>
+            
+        </dialog>
+
+    </div>
+
+    <div class="mainContainer">
+
+    </div>
+
+</body>
+
+</html>
